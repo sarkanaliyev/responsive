@@ -1,0 +1,242 @@
+.left {
+  background-image: url("../assets/karvansaray.JPG");
+  background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+
+  position: relative;
+
+  width: 60%;
+  height: 100vh;
+  float: left;
+  overflow-y: hidden;
+
+  animation-name: bounce-background;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  /* For Chrome & Safari */
+  -webkit-animation-name: bounce-background;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.detal-logo {
+  position: absolute;
+  width: 16.299479166666668vw;
+  height: 6.49867374005305vh;
+  left: 50px;
+  top: 40px;
+}
+.isgal-sonra {
+  position: absolute;
+  width: 136px;
+  height: 19px;
+  left: 339px;
+  top: 671px;
+  /* top: 651px; */
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.isgal-ox {
+  position: absolute;
+  /* width: 16px;
+  height: 28px; */
+  left: 251px;
+  top: 681px;
+  cursor: pointer;
+  /* border: 1.6px solid #ffffff; */
+  /* transform: matrix(0, 1, 1, 0, 0, 0); */
+}
+.isgal-ox-sag {
+  position: absolute;
+  /* width: 16px;
+  height: 28px; */
+  left: 531px;
+  top: 681px;
+  cursor: pointer;
+
+  /* border: 1.6px solid #ffffff; */
+}
+@keyframes bounce-background {
+  from {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
+.right {
+  width: 40%;
+  height: 100vh;
+  float: right;
+  overflow-y: auto;
+}
+
+.main-div {
+  /* background-color: red; */
+  margin-right: 15%;
+  margin-left: 5%;
+  /* width: 100%; */
+  /* height: 80vh; */
+}
+
+.detal-melumat {
+  font-size: 0.9114583333333334vw;
+  line-height: 1.8229166666666667vw;
+  padding-bottom: 30px;
+}
+.detal-rayon {
+  /* font-size: 15px; */
+  font-size: 0.9765625vw;
+  /* font-size: 1.9893899204244032vh; */
+  font-family: Palatino Linotype;
+font-style: normal;
+font-weight: normal;
+/* font-size: 15px; */
+/* line-height: 28px; */
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+
+color: #3A3D3F;
+
+}
+.detal-abide {
+  /* font-size: 22px; */
+  font-size: 1.4322916666666667vw;
+}
+.fwg {
+  /* position: absolute; */
+  /* width: 422px; */
+  /* height: 28px; */
+  /* left: 106px; */
+  /* top: 156px; */
+  /* background-color: green; */
+  width: 100%;
+}
+
+.up {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  /* background-color: green; */
+}
+
+.detal-hamburger {
+  position: absolute;
+  /* width: 42px;
+  height: 16px; */
+  width: 2.734375vw;
+  height: 2.1220159151193636vh;
+  /* right: 50px;
+  top: 56px; */
+
+  right: 3.2552083333333335vw;
+  top: 7.427055702917772vh;
+  /* margin: 2em 0 0 2em; */
+  /* margin-left: 8%;
+  margin-top: 2%; */
+}
+
+.detal-hamburger div {
+  /* height: 2px; */
+  height: 0.26525198938992045vh;
+  background: #000;
+  /* margin: 2px 0; */
+  margin: 0.26525198938992045vh 0;
+  /* border-right: 24px; */
+  transition: 0.3s;
+}
+
+.detal-one {
+  /* width: 50px; */
+  /* width: 3.2552083333333335vw; */
+  width: 2.734375vw;
+  float: right;
+}
+
+.detal-two {
+  /* width: 40px; */
+  /* width: 2.6041666666666665vw; */
+  width: 2.4739583333333335vw;
+  float: right;
+}
+.detal-three {
+  /* width: 30px; */
+  /* width: 1.953125vw; */
+  width: 2.2135416666666665vw;
+  float: right;
+}
+
+.detal-hamburger:hover div {
+  /* width: 50px; */
+  width: 3.2552083333333335vw;
+}
+.detal-az {
+  position: absolute;
+  /* width: 1.7578125vw;
+  height: 3.183023872679045vh; */
+  /* right: 129px;
+  top: 36px; */
+
+  right: 8.3984375vw;
+  top: 4.774535809018568vh;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.171875vw;
+  /* font-size: 1.2.387267904509284vh; */
+  /* font-size: 18px; */
+  /* line-height: 24px; */
+  text-transform: uppercase;
+
+  color: #000;
+}
+.qalereya {
+  /* font-size: 16px; */
+  font-size: 1.0416666666666667vw;
+}
+
+@media (max-width: 599px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1800px) {
+  /* .detal-melumat {
+    font-size: 28px;
+  }
+  .detal-rayon {
+    font-size: 30px;
+  }
+  .detal-abide {
+    font-size: 44px;
+  }
+  .qalereya {
+    font-size: 32px;
+  } */
+}

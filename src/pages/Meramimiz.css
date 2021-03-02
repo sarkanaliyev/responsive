@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none;
+}
+
+.meram-responsive {
+  /* background-color: red; */
+  /* height: 65vh; */
+  margin-left: 7.5%;
+  margin-right: 42.5%;
+}
+
+li {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.meram-rayonlar {
+  font-size: 0.9765625vw;
+  font-family: Palatino Linotype;
+font-style: normal;
+font-weight: normal;
+
+/* identical to box height, or 108% */
+
+
+color: #3A3D3F;
+}
+.meram-sub-rayonlar {
+  font-size: 1.6927083333333333vw;
+  font-family: Palatino Linotype;
+font-style: normal;
+font-weight: normal;
+
+/* identical to box height, or 108% */
+
+
+color: #3A3D3F;
+}
+.meram-p {
+  /* width: 658px; */
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9114583333333334vw;
+  /* line-height: 26px; */
+  /* or 186% */
+
+  color: #3a3d3f;
+}
+
+.meram-heykel {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  background-image:
+  linear-gradient(180deg, #000000 -112.64%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.1) 100%),
+   /* linear-gradient(
+      180deg,
+      #000000 -112.64%,
+      rgba(0, 0, 0, 0) 76.08%,
+      rgba(0, 0, 0, 0.1) 76.08%
+    ), */ url("../assets/meram-photo.png");
+  background-size: cover;
+  /* background: linear-gradient(180deg, #000000 -112.64%, rgba(0, 0, 0, 0) 76.08%, rgba(0, 0, 0, 0.1) 76.08%); */
+}

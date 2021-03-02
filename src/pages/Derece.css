@@ -1,0 +1,23 @@
+.derece-button-1 {
+  width: 180px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #dde1e6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.derece-button-1 span {
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 170%;
+  /* identical to box height, or 19px */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #3a3d3f;
+}

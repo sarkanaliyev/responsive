@@ -1,0 +1,106 @@
+.abide-responsive {
+  /* background-color: red; */
+  height: 65vh;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+.abide-rayonlar {
+  font-size: 1.9893899204244032vh;
+}
+.abide-sub-rayonlar {
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.4482758620689653vh;
+  padding-top: 0;
+  margin-top: 0;
+}
+.arrow {
+  padding-top: 40px;
+}
+.grid-wrap {
+  width: 100%;
+  /* padding-top: 30px; */
+  display: inline-block;
+  /* background-color: red; */
+}
+.abide-grid {
+  padding-top: 20px;
+}
+
+.button-1 {
+  width: 180px;
+  height: 40px;
+  background: #e19462;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.button-2 {
+  width: 341px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #dde1e6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.button-3 {
+  width: 177px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #dde1e6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.button-4 {
+  width: 304px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #dde1e6;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.button-1 span {
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 170%;
+  /* identical to box height, or 19px */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button-2 span,
+.button-3 span,
+.button-4 span {
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 170%;
+  /* identical to box height, or 19px */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #3a3d3f;
+}
+.search-button {
+  width: 40px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #dde1e6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  float: right;
+  margin-right: 23px;
+}

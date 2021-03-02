@@ -1,0 +1,24 @@
+.natavan-left {
+  background-image: url("../assets/natavan.jpeg");
+  background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+
+  position: relative;
+
+  width: 60%;
+  height: 100vh;
+  float: left;
+  overflow-y: hidden;
+
+  animation-name: bounce-background;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  /* For Chrome & Safari */
+  -webkit-animation-name: bounce-background;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+}
